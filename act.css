@@ -31,7 +31,12 @@ body {
 
 }
 
-.container form input {
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"]
+
+{
 
     width: 100%;
     padding: 10px;
